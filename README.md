@@ -68,9 +68,10 @@ Contributions are always welcome. Please read our [contributing guidelines](http
 
 ---
 
-## F.A.Q
 
-You can see frequently asked questions and their answers [here](https://github.com/gokadzev/dottunes/discussions/340).
+## Download the App
+
+You can download the app from the [Google Play Store]([https://play.google.com/store/apps/details?id=com.example.app](https://play.google.com/store/apps/details?id=com.dotstudios.dottunes&hl=en)).
 
 ---
 
