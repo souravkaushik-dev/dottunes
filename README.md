@@ -126,22 +126,24 @@ You can see frequently asked questions and their answers [here](https://github.c
 ## Disclaimer
 
 ```
-dottunes does not possess or maintain any association with the songs and other content accessible through the app.
-All songs and other content are the property of their respective owners and are safeguarded by copyright law.
-dottunes holds no liability for any copyright infringement or other violations of intellectual property rights
-that may arise from the use of the songs and other content accessible through the app.
-dottunes employs third-party plugins and assumes no responsibility for any harm or damage to the respective owners or
-any other parties resulting from the utilization of the songs and other content through the third-party plugins.
-By using the app, you consent to utilizing the songs and other content exclusively for personal,
-non-commercial purposes and in accordance with all applicable laws and regulations.
+This project is inspired by the Musify application and is owned by DotStudios, available on the Google Play Store. While this app is based on Musify’s design and functionality, it is an independent creation by DotStudios, and we do not claim ownership of the original Musify content or its associated intellectual property.
+
+All songs, music, and other content made accessible through this app are the sole property of their respective creators and owners. These materials are protected under applicable copyright laws and are not owned by DotStudios. We do not possess or claim any rights to the music or content shared or streamed via this app.
+
+DotStudios provides this app with the intention of offering a platform for personal, non-commercial use only. The content accessible through this app is to be enjoyed strictly for individual, non-commercial purposes, and users are fully responsible for ensuring their use of the app complies with all local, national, and international laws, including those related to copyright, intellectual property, and digital media.
+
+DotStudios does not assume any liability for any violations of copyright laws, including, but not limited to, infringement or misuse of content provided by third-party services or plugins integrated into the app. This includes any potential damages or legal consequences that may arise from such violations. All content made available via the app is provided "as is," and DotStudios does not make any warranties regarding the accuracy, legality, or quality of the content, nor does it guarantee uninterrupted access to the services provided.
+
+Furthermore, the app utilizes third-party plugins, and DotStudios does not take responsibility for any harm, damage, or adverse effects caused to users, content owners, or any other parties due to the use of these plugins. DotStudios has no control over third-party plugins and their compliance with legal or security requirements.
+
+We would like to express our sincere gratitude to Musify for being a source of inspiration for this project. Without their innovation, this project would not have been possible. However, we respectfully acknowledge that Musify remains a separate entity and its content is owned and managed by its respective creators and stakeholders.
+
+By using this app, you agree to adhere to the following conditions:
+
+Use the app only for personal, non-commercial purposes.
+Abide by all applicable laws and regulations, including but not limited to copyright and intellectual property laws.
+Accept that DotStudios is not liable for any legal issues or damages that may arise from the use of the app or the content provided.
+In summary, this app is an independent creation inspired by Musify, owned by DotStudios, and we encourage users to enjoy the content responsibly and legally while respecting the intellectual property rights of others.
 ```
 
 ---
-
-## Do you like the project? Sponsor it!
-
-  <a href="https://ko-fi.com/gokadzev">
-    <img width="30%" src="https://storage.ko-fi.com/cdn/brandasset/logo_white_stroke.png" alt="ko-fi">
-  </a>
-
-</div>
