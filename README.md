@@ -62,13 +62,6 @@ See the [GNU General Public License](https://github.com/gokadzev/dottunes/blob/m
 
 ---
 
-## Contribute
-
-Contributions are always welcome. Please read our [contributing guidelines](https://github.com/gokadzev/dottunes/blob/master/CONTRIBUTING.md) before contributing.
-
----
-
-
 ## Download the App
 
 [![Get it on Google Play](assets/Google_Play_2022_logo.svg.png)](https://play.google.com/store/apps/details?id=com.dotstudios.dottunes&hl=en)
