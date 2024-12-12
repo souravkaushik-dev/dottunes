@@ -42,23 +42,17 @@ Material UI & Accent Colors & Dynamic Colors (Android 12+) <br/>
 
 
 ```
-Copyright © 2024 dotstudios Gokadze
+Copyright © 2024 DotStudios
 
-dottunes is a free software licensed under GPL v3.0
-It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-```
+Dottunes is free software licensed under the GPL v3.0 license. It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-```
-Being Open Source doesn't mean you can just make a copy of the app and upload it on playstore or sell
-a closed source copy of the same.
-Read the following carefully:
-1. Any copy of a software under GPL must be under same license. So you can't upload the app on a closed source
-  app repository like PlayStore/AppStore without distributing the source code.
-2. You can't sell any copied/modified version of the app under any "non-free" license.
-   You must provide the copy with the original software or with instructions on how to obtain original software,
-   should clearly state all changes, should clearly disclose full source code, should include same license
-   and all copyrights should be retained.
+Important Notice Regarding Open Source Usage:
+
+While Dottunes is open source and licensed under the GPL v3.0, it is important to understand the terms of this license. Simply put, being open source does not grant you the right to copy the app, upload it to the Play Store, or sell a closed-source version of it.
+
+Please read and follow these terms carefully:
+
+License Compliance: Any copy of this software distributed under the GPL must remain under the same license. This means you cannot upload the app to closed-source platforms like the Play Store or the App Store without also making the source code available.No Selling Modified Versions: You cannot sell any modified or copied versions of this app under any "non-free" license. The modified or original version must be provided along with the full source code. It must also include clear instructions on how to obtain the original software, disclose all changes made, and retain the original copyright and license. Open Source Use Only: You are only permitted to use the source code of this app for an open source project under GPL v3.0 or later. The source code must be clearly disclosed on a public code hosting platform like GitHub, along with clear instructions on how to obtain the original software, a description of any changes you made, and the retention of all copyrights.
 
 In simple words, You can ONLY use the source code of this app for `Open Source` Project under `GPL v3.0` or later
 with all your source code CLEARLY DISCLOSED on any code hosting platform like GitHub, with clear INSTRUCTIONS on
