@@ -4,12 +4,6 @@
 
 Unlock the full potential of music: Stream effortlessly with one app!
 
-[![Stars](https://img.shields.io/github/stars/gokadzev/dottunes?style=flat-square&color=D3BEAB)](https://github.com/gokadzev/dottunes/stargazers)
-[![Forks](https://img.shields.io/github/forks/gokadzev/dottunes?style=flat-square&color=D3BEAB)](https://github.com/gokadzev/dottunes/fork)
-[![GitHub release](https://img.shields.io/github/v/release/gokadzev/dottunes?color=D3BEAB)](https://github.com/gokadzev/dottunes/releases)
-[![License](https://img.shields.io/github/license/gokadzev/dottunes?color=D3BEAB)](LICENSE)
-
-
 ---
 
 ## Features
@@ -36,17 +30,11 @@ Material UI & Accent Colors & Dynamic Colors (Android 12+) <br/>
 
 ## Screenshots
 
-| ![Screenshot 1](https://raw.githubusercontent.com/gokadzev/dottunes/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg) | ![Screenshot 2](https://raw.githubusercontent.com/gokadzev/dottunes/master/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg) | ![Screenshot 3](https://raw.githubusercontent.com/gokadzev/dottunes/master/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg) | ![Screenshot 4](https://raw.githubusercontent.com/gokadzev/dottunes/master/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg) |
+| ![Screenshot 1](https://play-lh.googleusercontent.com/IlU_2usOpxC3Pm_ZfvJHQPQL3FPll725lteukiKq0akQPM97lxpeU-5PBaYaxPPp0Q=w526-h296-rw) | ![Screenshot 2](https://play-lh.googleusercontent.com/I2a_1JwQLkRVaSHvO_KDncWSMVuENsrxWCVsP1ux2FWmL6jQk6FeV56SWpBAT8qmbQ=w526-h296-rw) | ![Screenshot 3](https://play-lh.googleusercontent.com/7yzU_Eb7156lRZ0r55jTRvgDLk37bV-3MN9xWtM2HOxMqeMlFxW4my16vgELx8bKx0oI=w526-h296-rw) | ![Screenshot 4](https://play-lh.googleusercontent.com/yAxVwsMXr1n6Ou7ZOIiS0kS1dtAI-Vxmx-wrLC5xp-XGe_8ZuL5yWbzJO9kfVfgqbg=w526-h296-rw) |
 |----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 
 
 ---
-
-## Download
-
-
-[<img src="https://github.com/gokadzev/dottunes/raw/master/repository_files/get-it-on-github.png" alt="Get it on Github" height="80">](https://github.com/gokadzev/dottunes/releases/latest)
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on Fdroid" height="80">](https://f-droid.org/packages/com.gokadzev.dottunes.fdroid)
 
 ---
 
