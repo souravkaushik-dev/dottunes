@@ -2,26 +2,24 @@
 
 # dottunes
 
-Unlock the full potential of music: Stream effortlessly with one app!
+Unleash the power of music: Stream, play, and enjoy your favorites seamlessly with just one app!
 
 ---
 
 ## Features
 
 <center>
-
-Online Song Search With Suggestions <br/>
-Streaming Support <br/>
-Offline Listening Support <br/>
-Import & Export Your Data And Never Lose It <br/>
-Add Custom Playlists With Link <br/>
-Optimized Sound Experience <br/>
-Lyrics Support <br/>
-No Ads <br/>
-No Subscriptions <br/>
-Inbuilt Updater <br/>
-13 Supported Languages <br/>
-Material UI & Accent Colors & Dynamic Colors (Android 12+) <br/>
+Online Song Search with Instant Suggestions <br/> 
+  Streaming Support for All Your Favorite Tracks <br/>
+  Offline Listening Mode for On-the-Go Music <br/> 
+  Import & Export Your Music Library, Never Lose Your Data <br/> 
+  Create Custom Playlists with Easy Link Integration <br/>
+  Optimized Sound Quality for an Enhanced Listening Experience <br/> 
+  Lyrics Display to Sing Along with Your Music <br/> 
+  Completely Ad-Free Experience <br/> No Hidden Subscriptions or Fees <br/> 
+  Inbuilt Updater for Seamless App Improvements <br/> 
+  Supports 13 Languages for a Global Audience <br/> 
+  Material UI with Accent & Dynamic Colors (Android 12+) <br/>
 
 </center>
 
