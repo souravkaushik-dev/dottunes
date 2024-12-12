@@ -71,7 +71,7 @@ Contributions are always welcome. Please read our [contributing guidelines](http
 
 ## Download the App
 
-[![Get it on Google Play](assets/Google_Play_2022_logo.svg)](https://play.google.com/store/apps/details?id=com.dotstudios.dottunes&hl=en)
+[![Get it on Google Play](assets/Google_Play_2022_logo.svg.png)](https://play.google.com/store/apps/details?id=com.dotstudios.dottunes&hl=en)
 
 ---
 
