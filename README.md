@@ -71,7 +71,7 @@ Contributions are always welcome. Please read our [contributing guidelines](http
 
 ## Download the App
 
-You can download the app from the [Google Play Store]([https://play.google.com/store/apps/details?id=com.example.app](https://play.google.com/store/apps/details?id=com.dotstudios.dottunes&hl=en)).
+You can download the app from the [![Get it on Google Play](https://img.shields.io/badge/Get_it_on-Google_Play-brightgreen)](https://play.google.com/store/apps/details?id=com.dotstudios.dottunes&hl=en)
 
 ---
 
