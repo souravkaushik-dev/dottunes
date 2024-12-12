@@ -1,0 +1,31 @@
+{
+  "hi": [
+    "albums",
+    "automaticSongPicker",
+    "chooseBackupFiles",
+    "invalidYouTubePlaylist",
+    "library",
+    "originalRecommendations",
+    "playlistAlreadyExists",
+    "predictiveBack",
+    "pureBlackTheme",
+    "songAlreadyInPlaylist",
+    "useSquigglySlider",
+    "youtubePlaylistLinkOrId"
+  ],
+
+  "vi": [
+    "albums",
+    "automaticSongPicker",
+    "chooseBackupFiles",
+    "invalidYouTubePlaylist",
+    "library",
+    "originalRecommendations",
+    "playlistAlreadyExists",
+    "predictiveBack",
+    "pureBlackTheme",
+    "songAlreadyInPlaylist",
+    "useSquigglySlider",
+    "youtubePlaylistLinkOrId"
+  ]
+}

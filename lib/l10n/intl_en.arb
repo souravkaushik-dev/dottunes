@@ -1,0 +1,3 @@
+{
+  "applocalizationsofcontextdisclaimerApplocalizationsofcontextdisclaimertext": "${AppLocalizations.of(context)!.disclaimer} ${AppLocalizations.of(context)!.disclaimerText}"
+}
