@@ -77,7 +77,7 @@ Contributions are always welcome. Please read our [contributing guidelines](http
 
 ## Credits
 
-[dottunes](https://github.com/Harsh-23/dottunes) - Original inspiration for the concept and app name, while our implementation took a different direction with a complete rewrite, a rebranded logo, and a redesigned layout and UI.
+The UI and concept are inspired by Musify, while the name and logo are owned by us. The recent changes and revamp in the app are also fully owned by us, including the complete rewrite, redesigned layout, and UI.
 
 <details>
 <summary>Click to show dependencies</summary>
