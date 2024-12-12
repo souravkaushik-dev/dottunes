@@ -71,7 +71,7 @@ Contributions are always welcome. Please read our [contributing guidelines](http
 
 ## Download the App
 
-You can download the app from the Play Store [](https://play-lh.googleusercontent.com/VVWPIBT3J5wOLzHd-Qs6QLxw6UsG5XBr6m3jE7BeOBcbLA_zgeK-sSAXtA11xdKpDTQ=w240-h480-rw)](https://play.google.com/store/apps/details?id=com.dotstudios.dottunes&hl=en)
+You can download the app from the Play Store[(https://play-lh.googleusercontent.com/VVWPIBT3J5wOLzHd-Qs6QLxw6UsG5XBr6m3jE7BeOBcbLA_zgeK-sSAXtA11xdKpDTQ=w240-h480-rw)](https://play.google.com/store/apps/details?id=com.dotstudios.dottunes&hl=en)
 
 ---
 
