@@ -1,0 +1,97 @@
+{
+  "ar": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "de": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "el": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "es": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "fr": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "gl": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "id": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "it": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "ja": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "ka": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "ko": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "pl": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "pt": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "ru": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "tr": [
+    "dottunes",
+    "update",
+    "doters"
+  ],
+
+  "uk": [
+    "dottunes",
+    "update",
+    "doters"
+  ]
+}
