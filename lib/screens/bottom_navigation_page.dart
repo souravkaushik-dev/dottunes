@@ -1,5 +1,5 @@
 import 'package:audio_service/audio_service.dart';
-import 'package:crystal_navigation_bar/crystal_navigation_bar.dart';
+import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -33,115 +33,125 @@ class _BottomNavigationPageState extends State<BottomNavigationPage> {
     final onSurfaceColor = theme.colorScheme.onSurface;
 
     return Scaffold(
-      body: Stack(
-        children: [
-          // Main body content
-          widget.child,
-          // Overlay the navigation bar on top of the screen
-          Positioned(
-            bottom: 0,
-            left: 0,
-            right: 0,
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: <Widget>[
-                StreamBuilder<MediaItem?>(
-                  stream: audioHandler.mediaItem,
-                  builder: (context, snapshot) {
-                    if (snapshot.hasError) {
-                      logger.log(
-                        'Error in mini player bar',
-                        snapshot.error,
-                        snapshot.stackTrace,
-                      );
-                    }
-                    final metadata = snapshot.data;
-                    if (metadata == null) {
-                      return const SizedBox.shrink();
-                    } else {
-                      return MiniPlayer(metadata: metadata);
-                    }
-                  },
-                ),
-                // CrystalNavigationBar with transparent background
-                CrystalNavigationBar(
-                  currentIndex: _selectedIndex.value, // Set the current selected index
-                  onTap: (index) {
-                    widget.child.goBranch(
-                      index,
-                      initialLocation: index == widget.child.currentIndex,
-                    );
-                    setState(() {
-                      _selectedIndex.value = index;
-                    });
-                  },
-                  items: !offlineMode.value
-                      ? [
-                    _buildCrystalNavItem(
-                      index: 0,
-                      icon: HugeIcons.strokeRoundedMountain, // IconData directly
-                      text: '.discover', // Updated parameter to `text`
-                      primaryColor: primaryColor,
-                      onSurfaceColor: onSurfaceColor,
-                    ),
-                    _buildCrystalNavItem(
-                      index: 1,
-                      icon: HugeIcons.strokeRoundedSeal,
-                      text: '.explore', // Updated parameter to `text`
-                      primaryColor: primaryColor,
-                      onSurfaceColor: onSurfaceColor,
-                    ),
-                    _buildCrystalNavItem(
-                      index: 2,
-                      icon: HugeIcons.strokeRoundedLibraries,
-                      text: '.catalog', // Updated parameter to `text`
-                      primaryColor: primaryColor,
-                      onSurfaceColor: onSurfaceColor,
-                    ),
-                    _buildCrystalNavItem(
-                      index: 3,
-                      icon: HugeIcons.strokeRoundedGeometricShapes02,
-                      text: '.prefs', // Updated parameter to `text`
-                      primaryColor: primaryColor,
-                      onSurfaceColor: onSurfaceColor,
-                    ),
-                  ]
-                      : [
-                    _buildCrystalNavItem(
-                      index: 0,
-                      icon: HugeIcons.strokeRoundedHome01,
-                      text: '.discover', // Updated parameter to `text`
-                      primaryColor: primaryColor,
-                      onSurfaceColor: onSurfaceColor,
-                    ),
-                    _buildCrystalNavItem(
-                      index: 1,
-                      icon: HugeIcons.strokeRoundedGeometricShapes02,
-                      text: '.prefs', // Updated parameter to `text`
-                      primaryColor: primaryColor,
-                      onSurfaceColor: onSurfaceColor,
-                    ),
-                  ],
-                  backgroundColor: Colors.transparent, // Set background to transparent
-                ),
-              ],
-            ),
+      body: widget.child,
+      bottomNavigationBar: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: <Widget>[
+          StreamBuilder<MediaItem?>(
+            stream: audioHandler.mediaItem,
+            builder: (context, snapshot) {
+              if (snapshot.hasError) {
+                logger.log(
+                  'Error in mini player bar',
+                  snapshot.error,
+                  snapshot.stackTrace,
+                );
+              }
+              final metadata = snapshot.data;
+              if (metadata == null) {
+                return const SizedBox.shrink();
+              } else {
+                return MiniPlayer(metadata: metadata);
+              }
+            },
+          ),
+          // SalomonBottomBar for the tab navigation
+          SalomonBottomBar(
+            currentIndex: _selectedIndex.value,
+            onTap: (index) {
+              widget.child.goBranch(
+                index,
+                initialLocation: index == widget.child.currentIndex,
+              );
+              setState(() {
+                _selectedIndex.value = index;
+              });
+            },
+            items: !offlineMode.value
+                ? [
+              _buildJumpingBarItem(
+                index: 0,
+                icon: const Icon(HugeIcons.strokeRoundedMountain),
+                title: '.tunes',
+                primaryColor: primaryColor,
+                onSurfaceColor: onSurfaceColor,
+              ),
+              _buildJumpingBarItem(
+                index: 1,
+                icon: const Icon(HugeIcons.strokeRoundedSeal),
+                title: '.explore',
+                primaryColor: primaryColor,
+                onSurfaceColor: onSurfaceColor,
+              ),
+              _buildJumpingBarItem(
+                index: 2,
+                icon: const Icon(HugeIcons.strokeRoundedLibraries),
+                title: '.catalog',
+                primaryColor: primaryColor,
+                onSurfaceColor: onSurfaceColor,
+              ),
+              _buildJumpingBarItem(
+                index: 3,
+                icon: const Icon(HugeIcons.strokeRoundedGeometricShapes02),
+                title: '.settings',
+                primaryColor: primaryColor,
+                onSurfaceColor: onSurfaceColor,
+              ),
+            ]
+                : [
+              _buildJumpingBarItem(
+                index: 0,
+                icon: const Icon(HugeIcons.strokeRoundedHome01),
+                title: 'Discover',
+                primaryColor: primaryColor,
+                onSurfaceColor: onSurfaceColor,
+              ),
+              _buildJumpingBarItem(
+                index: 1,
+                icon: const Icon(HugeIcons.strokeRoundedSettings05),
+                title: 'Preferences',
+                primaryColor: primaryColor,
+                onSurfaceColor: onSurfaceColor,
+              ),
+            ],
           ),
         ],
       ),
     );
   }
 
-  // Method to create a CrystalNavItem with jump animation on selection
-  CrystalNavigationBarItem _buildCrystalNavItem({
+  // Method to create a SalomonBottomBarItem with jump animation on selection
+  SalomonBottomBarItem _buildJumpingBarItem({
     required int index,
-    required IconData icon, // Directly use IconData
-    required String text, // Updated to `text` instead of `label`
+    required Icon icon,
+    required String title,
     required Color primaryColor,
     required Color onSurfaceColor,
   }) {
-    return CrystalNavigationBarItem(
-      icon: icon, // Directly use IconData
+    return SalomonBottomBarItem(
+      icon: ValueListenableBuilder<int>(
+        valueListenable: _selectedIndex,
+        builder: (context, selectedIndex, child) {
+          final isSelected = selectedIndex == index;
+          return AnimatedAlign(
+            duration: _animationDuration,
+            curve: Curves.easeOut,
+            alignment: Alignment(0, isSelected ? -1 : 0), // Move up on selection
+            child: AnimatedScale(
+              scale: isSelected ? 1.3 : 1.0, // Scale up the icon when selected
+              duration: _animationDuration,
+              curve: Curves.easeOut,
+              child: icon,
+            ),
+          );
+        },
+      ),
+      title: Text(
+        title,
+        style: const TextStyle(
+          fontFamily: 'Nothing', // Replace with your actual font family
+        ),
+      ),
       selectedColor: primaryColor,
       unselectedColor: onSurfaceColor.withOpacity(0.6),
     );
