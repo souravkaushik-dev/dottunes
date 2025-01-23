@@ -1,6 +1,3 @@
-Here’s a GitHub-friendly version of the README for **DotTunes 2.0**:
-
----
 
 # 🎶 DotTunes 2.0 - The Next Evolution of Music Streaming
 
@@ -59,5 +56,3 @@ DotTunes is licensed under the [MIT License](LICENSE).
 We hope you enjoy using **DotTunes 2.0** as much as we enjoyed building it. Stay tuned for more updates and exciting features coming your way soon!
 
 --- 
-
-Feel free to modify this README as per your project’s specific requirements!
